@@ -255,7 +255,6 @@ ul li:nth-child(4) a img {
 
 .banner-slogan p {
   max-width: 445px;
-  margin-bottom: 16px;
 }
 
 .banner-slogan .shop-now-button {
@@ -443,10 +442,6 @@ ul li:nth-child(3) .square-photo {
 
 .discount-wrap .discount-product-name {
   margin-bottom: 4px;
-}
-
-.discount-wrap .discount-brand {
-  margin-bottom: 16px;
 }
 
 .discount-wrap .discount-price {
