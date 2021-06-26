@@ -13,9 +13,9 @@
     "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png",
     "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg");
 
-       ul {
+       .grid-wrap {
         @for $i from 1 through 3 {
-            li:nth-child(#{$i}) .square-photo  {
+            li:nth-child(#{$i}) .keep-ratio  {
                 background: url(nth($urls, $i));
             }
         }

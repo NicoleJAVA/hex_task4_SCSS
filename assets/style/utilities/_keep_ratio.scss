@@ -1,0 +1,8 @@
+/* this class will automatically adjust its width and height
+to keep its ratio when the width of the browser changes */
+.keep-ratio{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    background-size: cover;
+    background-position: center;
+}
