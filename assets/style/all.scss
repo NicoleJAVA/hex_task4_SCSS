@@ -5,6 +5,7 @@
 @import 'utilities/keep_ratio';
 @import 'utilities/img';
 @import 'utilities/mixin';
+@import 'utilities/mobile';
 @import 'base/base';
 @import 'component/wrap';
 @import 'component/header';
@@ -16,11 +17,5 @@
 @import 'component/eco';
 @import 'component/subscribe';
 @import 'component/footer';
-
-@media(max-width: 768px) {
-    .m-none {
-        display: none;
-    }    
-}
 
 
