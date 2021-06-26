@@ -25,7 +25,7 @@ h1 {
 
 }
 
-.nav {
+.navBar {
     display: flex;
     align-items: center;
 
@@ -332,7 +332,7 @@ h1 {
 }
 
 @media(max-width: 768px) {
-    .nav em {
+    .navBar em {
         display: block;
     }
 
@@ -340,11 +340,11 @@ h1 {
         display: none;
     }    
 
-    .nav .m-none {
+    .navBar .m-none {
         display: none;
     }
 
-    .nav .nav-menu-icon {
+    .navBar .nav-menu-icon {
         display: block;
     }
 
