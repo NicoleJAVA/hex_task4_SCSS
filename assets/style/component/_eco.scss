@@ -1,0 +1,40 @@
+.eco-wrap {
+    padding: 60px 0;
+
+    .eco-info {
+        margin:  auto;
+        width: 31.5%;
+    }
+
+    .eco-keep-ratio-wrap {
+        width: 65.8%;
+        padding-bottom: 46.9%;
+        position: relative;
+    }
+
+    .eco-keep-ratio-wrap > .eco-photo {
+        background-image: url($eco-img-url);
+    }
+}
+
+@media(max-width: 768px) {
+    .eco-wrap {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+
+        .eco-keep-ratio-wrap {
+            width: 100%;
+            padding-bottom: 150.7%; 
+            margin-bottom: 8px;
+        }
+
+        .eco-info {
+            width: 100%;
+        }
+
+        p {
+            margin-bottom: 16px;
+        }
+    }
+}
