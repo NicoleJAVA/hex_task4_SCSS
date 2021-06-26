@@ -19,7 +19,7 @@ $light-font-weight: 300;
 $medium-font-weight: 500;
 
 $font-size-m: 20px;
-$xl-font-size: 32px;
+$xxl-font-size: 32px;
 
 $wrap-width: 1110px;
 $logo-width: 128px;
@@ -63,8 +63,8 @@ $wrap-padding: 15px;
     font-size: 32px;
 }
 
-.xl-bold-text {
-    font-size: $xl-font-size;
+.xxl-bold-text {
+    font-size: $xxl-font-size;
     font-weight: bold;
 }
 
@@ -550,7 +550,7 @@ h1 {
     .banner-slogan {
         
         h2 {
-            font-size: $xl-font-size;
+            font-size: $xxl-font-size;
         }
 
         p {
