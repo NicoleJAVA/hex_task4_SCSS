@@ -1,0 +1,9 @@
+$wrap-width: 1110px;
+$wrap-padding: 15px;
+
+.wrap {
+    max-width: $wrap-width;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 $wrap-padding;
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+$font-size-m: 20px;
+$font-size-xxl: 32px;
+
+.font-xs {
+    font-size: 12px;
+}
+
+.font-s {
+    font-size: 14px;
+}
+
+.font-m {
+    font-size: 20px;
+}
+
+.font-l {
+    font-size: 24px;
+}
+
+.font-xl {
+    font-size: 28px;
+}
+
+.font-xxl {
+    font-size: 32px;
+}
+
+.font-xxxl {
+    font-size: 40px;
+}
+
+.light-300 {
+    font-weight: 300;
+}
+
+.bold-500 {
+    font-weight: 500;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: bold;
+}
