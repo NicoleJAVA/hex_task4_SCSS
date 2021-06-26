@@ -7,6 +7,7 @@
 @import 'component/button';
 @import 'utilities/img';
 @import 'utilities/mixin';
+@import 'component/navBar';
 
 h1 {
     @include image-replace-text;
@@ -23,57 +24,6 @@ h1 {
     align-items: center;
     height: 56px;
 
-}
-
-.navBar {
-    display: flex;
-    align-items: center;
-
-    a {
-        position: relative;
-        text-decoration: none;
-        display: block;
-        color: $theme-gray;
-    }
-
-    em {
-        position: absolute;
-        top: -4px;
-        right: -5px;
-        background: $theme-gold;
-        color: white;
-        display: block;
-        border-radius: 7px;
-        padding: 0px;
-        width: 16px;
-        height: 13px;
-        line-height: 14px;
-        display: none;
-        text-align: center;
-    }
-
-    li a {
-        display: flex;
-        align-items: center;
-    }
-
-    li {
-        display: flex;
-    }
-
-    li + li {
-        margin-left: 32px;
-    }
-
-    .nav-menu-icon {
-        display: none;
-        margin-left: 15px;
-        opacity: 45%;
-    }
-}
-
-.nav-item-name {
-    margin-left: 3px;
 }
 
 .banner-full-width-wrap {
@@ -332,21 +282,9 @@ h1 {
 }
 
 @media(max-width: 768px) {
-    .navBar em {
-        display: block;
-    }
-
     .m-none {
         display: none;
     }    
-
-    .navBar .m-none {
-        display: none;
-    }
-
-    .navBar .nav-menu-icon {
-        display: block;
-    }
 
     .grid-wrap {
         margin-bottom: 20px;
