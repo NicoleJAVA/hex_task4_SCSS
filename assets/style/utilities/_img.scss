@@ -2,3 +2,31 @@ $logo-url: 'https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/mas
 $grid-4-img-url: "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index5.jpg";
 $eco-img-url: "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index9.jpg";
 $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg";
+
+@mixin grid-img-url() {
+    $urls: ("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index2.jpg",
+    "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png",
+    "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg");
+
+       .grid-wrap {
+        @for $i from 1 through 3 {
+            li:nth-child(#{$i}) .keep-ratio  {
+                background: url(nth($urls, $i));
+            }
+        }
+    }
+}
+
+@mixin discount-img-url() {
+    $urls: (
+        "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg"
+        "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index7.jpg"
+        "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index8.jpg"
+    );
+
+    @for $i from 1 through 3 {
+        .discount-product:nth-child(#{$i}) .discount-photo {
+            background: url(nth($urls, $i));
+        }
+    }
+}
