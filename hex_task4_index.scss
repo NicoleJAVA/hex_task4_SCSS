@@ -18,7 +18,7 @@ $extra-light-font-weight: 200;
 $light-font-weight: 300;
 $medium-font-weight: 500;
 
-$medium-font-size: 20px;
+$font-size-m: 20px;
 $large-font-size: 24px;
 $xl-font-size: 32px;
 $xxl-font-size: 40px;
@@ -564,7 +564,7 @@ h1 {
         }
 
         p {
-            font-size: $medium-font-size;
+            font-size: $font-size-m;
         }
     }
 
