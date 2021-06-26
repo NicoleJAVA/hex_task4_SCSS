@@ -9,6 +9,10 @@
   font-size: 12px;
 }
 
+.font-s {
+  font-size: 14px;
+}
+
 .light-300 {
   font-weight: 300;
 }
@@ -598,7 +602,6 @@ ul li:nth-child(3) .square-photo {
 }
 
 .footer-copyright {
-  font-size: 14px;
   margin-left: 23px;
   color: white;
 }
