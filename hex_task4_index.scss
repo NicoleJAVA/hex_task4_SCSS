@@ -20,7 +20,6 @@ $medium-font-weight: 500;
 
 $font-size-m: 20px;
 $xl-font-size: 32px;
-$xxl-font-size: 40px;
 
 $wrap-width: 1110px;
 $logo-width: 128px;
@@ -44,6 +43,10 @@ $wrap-padding: 15px;
     font-size: 24px;
 }
 
+.font-xxxl {
+    font-size: 40px;
+}
+
 .light-300 {
     font-weight: 300;
 }
@@ -52,17 +55,16 @@ $wrap-padding: 15px;
     font-weight: 600;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .fz-32 {
     font-size: 32px;
 }
 
 .xl-bold-text {
     font-size: $xl-font-size;
-    font-weight: bold;
-}
-
-.xxl-bold-text {
-    font-size: $xxl-font-size;
     font-weight: bold;
 }
 
