@@ -117,11 +117,7 @@ h1 {
     }
 
     .eco-keep-ratio-wrap > .eco-photo {
-        position: absolute;
-        top: 0; bottom: 0; left: 0; right: 0;
-        background: url($eco-img-url);
-        background-size: cover;
-        background-position: center;
+        background-image: url($eco-img-url);
     }
 }
 
