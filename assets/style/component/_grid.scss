@@ -1,0 +1,68 @@
+.grid-wrap {    
+
+    .grid-row-reverse {        
+        flex-direction: row-reverse;
+    }
+    
+    .grid-info {
+        width: 350px;
+        margin: auto;
+    }
+
+    .grid-keep-ratio-wrap {
+        width: 50%;
+        padding-bottom: 50%;
+        position: relative;
+    }
+
+    .keep-rect-ratio-wrap {
+        width: 50%;
+        padding-bottom: 97.3%;
+        position: relative;
+    }
+    
+    .keep-rect-ratio-wrap > .keep-ratio {
+        background-image: url($grid-4-img-url);
+    }
+
+    .training-button {
+        border-color: black;
+        color: black;
+    }
+}
+
+@include grid-img-url();
+
+@media(max-width: 768px) {
+    .grid-wrap {
+        margin-bottom: 20px;
+
+        .grid-row-reverse, li {        
+            flex-direction: column;
+        }
+
+        .grid-keep-ratio-wrap {
+            width: 100%;
+            padding-bottom: 100%; 
+            margin-bottom: 8px;       
+        }
+
+        .keep-rect-ratio-wrap {
+            width: 100%;
+            padding-bottom: 194.6%;
+            margin-bottom: 8px;       
+        }
+
+        .grid-info {
+            margin-bottom: 20px;
+        }
+
+        .grid-info h3 {
+            margin-bottom: 8px;
+        }
+
+        .grid-info p {
+            margin-bottom: 8px;
+        }
+    }
+}
