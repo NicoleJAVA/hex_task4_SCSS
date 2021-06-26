@@ -5,6 +5,7 @@
 @import 'base/base';
 @import 'component/wrap';
 @import 'component/button';
+@import 'component/banner';
 @import 'utilities/img';
 @import 'utilities/mixin';
 @import 'component/navBar';
@@ -20,42 +21,6 @@ h1 {
 
 .header {
     height: 56px;
-}
-
-.banner-full-width-wrap {
-    padding: 0;
-    position: relative;
-    width: $banner-width;
-    height: $banner-height;
-}
-
-.banner {
-    width: $banner-width;
-    height: $banner-height;
-    overflow: hidden;
-    position: absolute;
-    object-fit: cover;
-}
-
-.banner-content-wrap {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    left: 0;
-    right: 0;
-}
-
-.banner-slogan {
-    color: white;
-
-    p {
-        max-width: 445px;
-    }
-
-    .shop-now-button {
-        border-color:#FFFFFF;
-    }
 }
 
 .grid-wrap {    
@@ -267,26 +232,6 @@ h1 {
 
         .grid-info p {
             margin-bottom: 8px;
-        }
-    }
-
-    .banner-full-width-wrap {
-        height: 480px;
-        margin-bottom: 40px;
-    }
-
-    .banner {
-        height: 480px;
-    }
-
-    .banner-slogan {
-        
-        h2 {
-            font-size: $font-size-xxl;
-        }
-
-        p {
-            font-size: $font-size-m;
         }
     }
 
