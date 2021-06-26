@@ -255,7 +255,6 @@ ul li:nth-child(4) a img {
 }
 
 .banner-slogan .shop-now-button {
-  font-weight: 300;
   border-color: #FFFFFF;
 }
 
@@ -343,7 +342,6 @@ ul li:nth-child(4) a img {
 }
 
 .grid-wrap .rect-grid-paragraph {
-  font-weight: 300;
   margin-bottom: 52px;
 }
 
@@ -445,12 +443,10 @@ ul li:nth-child(3) .square-photo {
 }
 
 .discount-wrap .discount-brand {
-  font-weight: 300;
   margin-bottom: 16px;
 }
 
 .discount-wrap .discount-price {
-  font-weight: 300;
   margin-right: 8px;
 }
 

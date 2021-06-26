@@ -15,7 +15,6 @@ $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTrainin
 $theme-line-height: 1.5;
 
 $extra-light-font-weight: 200;
-$light-font-weight: 300;
 $medium-font-weight: 500;
 
 $font-size-m: 20px;
@@ -234,7 +233,6 @@ h1 {
     }
 
     .shop-now-button {
-        font-weight: $light-font-weight;
         border-color:#FFFFFF;
     }
 }
@@ -298,7 +296,6 @@ h1 {
     }
 
     .rect-grid-paragraph {
-        font-weight: $light-font-weight;
         margin-bottom: 52px;
     }
 
@@ -360,12 +357,10 @@ h1 {
     }
 
     .discount-brand {
-        font-weight: $light-font-weight;
         margin-bottom: 16px;
     }
 
     .discount-price {
-        font-weight: $light-font-weight;
         margin-right: 8px;
     }
 
