@@ -1,12 +1,12 @@
 @import 'utilities/css_reset';
-@import 'font';
-@import 'color';
-@import 'dimension';
-@import 'base';
-@import 'wrap';
-@import 'button';
-@import 'img';
-@import 'mixin';
+@import 'utilities/font';
+@import 'utilities/color';
+@import 'utilities/dimension';
+@import 'base/base';
+@import 'component/wrap';
+@import 'component/button';
+@import 'utilities/img';
+@import 'utilities/mixin';
 
 h1 {
     @include image-replace-text;
