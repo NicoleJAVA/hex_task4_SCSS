@@ -7,23 +7,11 @@
 @import 'utilities/mixin';
 @import 'base/base';
 @import 'component/wrap';
+@import 'component/header';
 @import 'component/button';
 @import 'component/banner';
 @import 'component/navBar';
 @import 'component/grid';
-
-h1 {
-    @include image-replace-text;
-    background: url($logo-url);
-    width: $logo-width;
-    height: 38px;
-    padding: 9px 0;
-    background-repeat: no-repeat;
-}
-
-.header {
-    height: 56px;
-}
 
 .discount-full-width-wrap {
     padding: 40px 0;
@@ -147,10 +135,6 @@ h1 {
     .m-none {
         display: none;
     }    
-
-    .header {
-        padding: 0 20px;
-    }
 
     .discount-full-width-wrap {
         padding: 12px 0 16px 0;
