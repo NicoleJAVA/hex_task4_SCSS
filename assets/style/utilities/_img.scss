@@ -25,7 +25,7 @@ $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTrainin
     );
 
     @for $i from 1 through 3 {
-        .discount-product:nth-child(#{$i}) .discount-photo {
+        .discount-product:nth-child(#{$i}) .keep-ratio {
             background-image: url(nth($urls, $i));
         }
     }
