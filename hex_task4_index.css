@@ -21,6 +21,10 @@
   font-size: 24px;
 }
 
+.font-xl {
+  font-size: 28px;
+}
+
 .font-xxl {
   font-size: 32px;
 }
@@ -253,7 +257,6 @@ ul li:nth-child(4) a img {
 .banner-slogan .shop-now-button {
   font-weight: 300;
   border-color: #FFFFFF;
-  font-size: 28px;
 }
 
 .grid-wrap {
