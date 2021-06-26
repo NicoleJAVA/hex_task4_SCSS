@@ -17,7 +17,6 @@ $theme-line-height: 1.5;
 $extra-light-font-weight: 200;
 $light-font-weight: 300;
 $medium-font-weight: 500;
-$semi-bold-font-weight: 600;
 
 $xs-font-size: 12px;
 $medium-font-size: 20px;
@@ -35,15 +34,11 @@ $wrap-padding: 15px;
     font-size: $xs-font-size;
 }
 
-.small-bold-text {
-    font-weight: bold;
-}
-
 .light-300 {
     font-weight: 300;
 }
 
-.semi-bold-600 {
+.bold-600 {
     font-weight: 600;
 }
 
@@ -53,10 +48,6 @@ $wrap-padding: 15px;
 
 .fz-32 {
     font-size: 32px;
-}
-
-.semi-bold-text {
-    font-weight: $semi-bold-font-weight;
 }
 
 .meduim-text {
@@ -80,11 +71,6 @@ $wrap-padding: 15px;
 .xl-bold-text {
     font-size: $xl-font-size;
     font-weight: bold;
-}
-
-.xl-semi-bold-text {
-    font-size: $xl-font-size;
-    font-weight: $semi-bold-font-weight;
 }
 
 .xxl-bold-text {
@@ -321,7 +307,6 @@ h1 {
 
     .rect-grid-title {
         font-size: $large-font-size;
-        font-weight: $semi-bold-font-weight;
         margin-bottom: 4px;
     }
 
@@ -386,7 +371,6 @@ h1 {
 
     .discount-product-name {
         font-size: $large-font-size;
-        font-weight: $semi-bold-font-weight;
         margin-bottom: 4px;
     }
 
