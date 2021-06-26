@@ -7,3 +7,10 @@ $wrap-padding: 15px;
     margin-right: auto;
     padding: 0 $wrap-padding;
 }
+
+@media(max-width: 768px) {
+    .wrap {
+        padding-left: $wrap-padding;
+        padding-right: $wrap-padding;
+    }
+}
