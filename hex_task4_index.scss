@@ -43,6 +43,10 @@ $wrap-padding: 15px;
     font-size: 24px;
 }
 
+.font-xxl {
+    font-size: 32px;
+}
+
 .font-xxxl {
     font-size: 40px;
 }
@@ -61,11 +65,6 @@ $wrap-padding: 15px;
 
 .fz-32 {
     font-size: 32px;
-}
-
-.xxl-bold-text {
-    font-size: $xxl-font-size;
-    font-weight: bold;
 }
 
 .mb-16 {

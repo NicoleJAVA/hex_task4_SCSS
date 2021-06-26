@@ -21,6 +21,10 @@
   font-size: 24px;
 }
 
+.font-xxl {
+  font-size: 32px;
+}
+
 .font-xxxl {
   font-size: 40px;
 }
@@ -39,11 +43,6 @@
 
 .fz-32 {
   font-size: 32px;
-}
-
-.xxl-bold-text {
-  font-size: 32px;
-  font-weight: bold;
 }
 
 .mb-16 {
