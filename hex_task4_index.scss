@@ -14,8 +14,6 @@ $eco-img-url: "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/
 $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg";
 $theme-line-height: 1.5;
 
-$medium-font-weight: 500;
-
 $font-size-m: 20px;
 $font-size-xxl: 32px;
 
@@ -55,6 +53,10 @@ $wrap-padding: 15px;
 
 .light-300 {
     font-weight: 300;
+}
+
+.bold-500 {
+    font-weight: 500;
 }
 
 .bold-600 {
@@ -299,7 +301,6 @@ h1 {
     }
 
     .training-button {
-        font-weight: $medium-font-weight;
         border-color: black;
         color: black;
     }

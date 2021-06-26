@@ -37,6 +37,10 @@
   font-weight: 300;
 }
 
+.bold-500 {
+  font-weight: 500;
+}
+
 .bold-600 {
   font-weight: 600;
 }
@@ -346,7 +350,6 @@ ul li:nth-child(4) a img {
 }
 
 .grid-wrap .training-button {
-  font-weight: 500;
   border-color: black;
   color: black;
 }
