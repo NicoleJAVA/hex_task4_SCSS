@@ -128,8 +128,6 @@ h1 {
 @include discount-img-url();
 
 .discount-wrap {
-    display: flex;
-    justify-content: space-between;
 
     .discount-product {
         width: 31.5%;
