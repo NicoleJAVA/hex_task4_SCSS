@@ -14,44 +14,7 @@
 @import 'component/grid';
 @import 'component/discount';
 @import 'component/eco';
-
-.subscribe-full-width-wrap {
-    height: 600px;
-    background: url($subscribe-bg-url);
-    background-size: cover;
-    background-position: center;
-}
-
-.subscribe-wrap {
-    padding: 312px 0 0 0;
-}
-
-.email-wrap {
-    max-width: 350px;
-}
-
-.email-input {
-    flex-grow: 1;
-    border: 2px solid $theme-gold;
-    border-radius: 4px 0px 0px 4px;
-    background: white;
-    height: 60px;
-    line-height: 60px;
-    padding-left: 16px;
-
-    &::placeholder {
-        color: $theme-gray;
-    }
-}
-
-.subscribe-btn {
-    width: 131px;
-    border: 2px solid $theme-gold;
-    border-radius: 0px 4px 4px 0px;
-    background: $theme-gold;
-    cursor: pointer;
-    color: white;
-}
+@import 'component/subscribe';
 
 .footer-full-width-wrap {
     background: $theme-gold;
