@@ -49,6 +49,10 @@
   font-weight: bold;
 }
 
+.mb-8 {
+  margin-bottom: 8px;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -396,7 +400,6 @@ ul li:nth-child(3) .square-photo {
   width: 100%;
   padding-bottom: 154.3%;
   position: relative;
-  margin-bottom: 8px;
 }
 
 .discount-wrap .discount-keep-ratio > .discount-photo {
@@ -477,10 +480,6 @@ ul li:nth-child(3) .square-photo {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index9.jpg");
   background-size: cover;
   background-position: center;
-}
-
-.eco-wrap p {
-  margin-bottom: 8px;
 }
 
 .subscribe-full-width-wrap {

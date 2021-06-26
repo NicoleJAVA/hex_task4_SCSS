@@ -67,6 +67,10 @@ $wrap-padding: 15px;
     font-weight: bold;
 }
 
+.mb-8 {
+    margin-bottom: 8px;
+}
+
 .mb-16 {
     margin-bottom: 16px;
 }
@@ -326,7 +330,6 @@ h1 {
         width: 100%;
         padding-bottom: 154.3%;
         position: relative;
-        margin-bottom: 8px;
     }
 
     .discount-keep-ratio > .discount-photo {
@@ -387,10 +390,6 @@ h1 {
         background: url($eco-img-url);
         background-size: cover;
         background-position: center;
-    }
-
-    p {
-        margin-bottom: 8px;
     }
 }
 
