@@ -94,7 +94,8 @@ p {
 
 .wrap {
   max-width: 1110px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
 }
 
