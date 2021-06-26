@@ -17,6 +17,10 @@
   font-size: 20px;
 }
 
+.font-l {
+  font-size: 24px;
+}
+
 .light-300 {
   font-weight: 300;
 }
@@ -31,10 +35,6 @@
 
 .fz-32 {
   font-size: 32px;
-}
-
-.large-text {
-  font-size: 24px;
 }
 
 .large-bold-text {
