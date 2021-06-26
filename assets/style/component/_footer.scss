@@ -1,0 +1,28 @@
+.footer-full-width-wrap {
+    background: $theme-gold;
+}
+
+.logo-copyright-wrap {
+    height: 80px;
+}
+
+.footer-logo {
+    width: 128px;
+    height: 38px;
+}
+
+.footer-copyright {
+    margin-left: 23px;
+    color: white;
+}
+
+.footer-menu {
+
+    a {
+        color: white;    
+    }
+
+    a + a {
+        margin-left: 36px;
+    }
+}
