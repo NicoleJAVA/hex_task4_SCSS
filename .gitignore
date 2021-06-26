@@ -4,3 +4,6 @@ node_modules
 dist
 .vscode
 .DS_Store
+.sass-cache/
+*.css.map
+assets/style/*.css
