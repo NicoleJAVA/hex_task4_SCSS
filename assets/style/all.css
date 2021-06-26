@@ -1,0 +1,582 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.font-xs {
+  font-size: 12px;
+}
+
+.font-s {
+  font-size: 14px;
+}
+
+.font-m {
+  font-size: 20px;
+}
+
+.font-l {
+  font-size: 24px;
+}
+
+.font-xl {
+  font-size: 28px;
+}
+
+.font-xxl {
+  font-size: 32px;
+}
+
+.font-xxxl {
+  font-size: 40px;
+}
+
+.light-300 {
+  font-weight: 300;
+}
+
+.bold-500 {
+  font-weight: 500;
+}
+
+.bold-600 {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gold-text {
+  color: #916000;
+}
+
+.gray-text {
+  color: #8D8D8D;
+}
+
+.mb-4 {
+  margin-bottom: 4px;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-52 {
+  margin-bottom: 52px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+/* this class will automatically adjust its width and height
+to keep its ratio when the width of the browser changes */
+.keep-ratio {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .m-none {
+    display: none;
+  }
+}
+
+body {
+  line-height: 1.5;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif, 'Roboto';
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+input:focus {
+  outline: none;
+}
+
+.wrap {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+h1 {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/d’Perfume.png");
+  width: 128px;
+  height: 38px;
+  padding: 9px 0;
+  background-repeat: no-repeat;
+}
+
+.header {
+  height: 56px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+}
+
+.theme-button {
+  text-align: center;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  max-width: 350px;
+  line-height: 60px;
+  display: block;
+}
+
+.banner-full-width-wrap {
+  padding: 0;
+  position: relative;
+  width: 100vw;
+  height: 45.3vw;
+}
+
+.banner {
+  width: 100vw;
+  height: 45.3vw;
+  overflow: hidden;
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-content-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  left: 0;
+  right: 0;
+}
+
+.banner-slogan {
+  color: white;
+}
+
+.banner-slogan p {
+  max-width: 445px;
+}
+
+.banner-slogan .shop-now-button {
+  border-color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+  .banner-full-width-wrap {
+    height: 480px;
+    margin-bottom: 40px;
+  }
+  .banner {
+    height: 480px;
+  }
+  .banner-slogan h2 {
+    font-size: 32px;
+  }
+  .banner-slogan p {
+    font-size: 20px;
+  }
+}
+
+.navBar a {
+  position: relative;
+  text-decoration: none;
+  display: block;
+  color: #8D8D8D;
+}
+
+.navBar em {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  background: #916000;
+  color: white;
+  display: block;
+  border-radius: 7px;
+  padding: 0px;
+  width: 16px;
+  height: 13px;
+  line-height: 14px;
+  display: none;
+  text-align: center;
+}
+
+.navBar li + li {
+  margin-left: 32px;
+}
+
+.navBar .nav-menu-icon {
+  display: none;
+  margin-left: 15px;
+  opacity: 45%;
+}
+
+.nav-item-name {
+  margin-left: 3px;
+}
+
+@media (max-width: 768px) {
+  .navBar em {
+    display: block;
+  }
+  .navBar .m-none {
+    display: none;
+  }
+  .navBar .nav-menu-icon {
+    display: block;
+  }
+}
+
+.grid-wrap .grid-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.grid-wrap .grid-info {
+  width: 350px;
+  margin: auto;
+}
+
+.grid-wrap .grid-keep-ratio-wrap {
+  width: 50%;
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.grid-wrap .keep-rect-ratio-wrap {
+  width: 50%;
+  padding-bottom: 97.3%;
+  position: relative;
+}
+
+.grid-wrap .keep-rect-ratio-wrap > .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index5.jpg");
+}
+
+.grid-wrap .training-button {
+  border-color: black;
+  color: black;
+}
+
+.grid-wrap li:nth-child(1) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index2.jpg");
+}
+
+.grid-wrap li:nth-child(2) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index3.png");
+}
+
+.grid-wrap li:nth-child(3) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index4.jpg");
+}
+
+@media (max-width: 768px) {
+  .grid-wrap {
+    margin-bottom: 20px;
+  }
+  .grid-wrap .grid-row-reverse, .grid-wrap li {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .grid-wrap .grid-keep-ratio-wrap {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 8px;
+  }
+  .grid-wrap .keep-rect-ratio-wrap {
+    width: 100%;
+    padding-bottom: 194.6%;
+    margin-bottom: 8px;
+  }
+  .grid-wrap .grid-info {
+    margin-bottom: 20px;
+  }
+  .grid-wrap .grid-info h3 {
+    margin-bottom: 8px;
+  }
+  .grid-wrap .grid-info p {
+    margin-bottom: 8px;
+  }
+}
+
+.discount-full-width-wrap {
+  padding: 40px 0;
+  background: #E0E0E0;
+}
+
+.discount-product:nth-child(1) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index6.jpg");
+}
+
+.discount-product:nth-child(2) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index7.jpg");
+}
+
+.discount-product:nth-child(3) .keep-ratio {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index8.jpg");
+}
+
+.discount-wrap .discount-product {
+  width: 31.5%;
+}
+
+.discount-wrap .discount-keep-ratio-wrap {
+  width: 100%;
+  padding-bottom: 154.3%;
+  position: relative;
+}
+
+.discount-wrap .sold-out {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+.discount-wrap .original-price {
+  color: #8D8D8D;
+  text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+  .discount-full-width-wrap {
+    margin-bottom: 0;
+    padding: 12px 0 16px 0;
+  }
+  .discount-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .discount-wrap .discount-product {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .discount-wrap .discount-brand {
+    margin-bottom: 4px;
+  }
+  .discount-wrap .original-price {
+    display: none;
+  }
+}
+
+.eco-wrap {
+  padding: 60px auto;
+}
+
+.eco-wrap .eco-info {
+  margin: auto;
+  width: 31.5%;
+}
+
+.eco-wrap .eco-keep-ratio-wrap {
+  width: 65.8%;
+  padding-bottom: 46.9%;
+  position: relative;
+}
+
+.eco-wrap .eco-keep-ratio-wrap > .eco-photo {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index9.jpg");
+}
+
+@media (max-width: 768px) {
+  .eco-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+  }
+  .eco-wrap .eco-keep-ratio-wrap {
+    width: 100%;
+    padding-bottom: 150.7%;
+    margin-bottom: 8px;
+  }
+  .eco-wrap .eco-info {
+    width: 100%;
+  }
+  .eco-wrap p {
+    margin-bottom: 16px;
+  }
+}
+
+.subscribe-full-width-wrap {
+  height: 600px;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/perfume-week6/index10.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.subscribe-wrap {
+  padding-top: 312px;
+}
+
+.email-wrap {
+  max-width: 350px;
+}
+
+.email-input {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  border: 2px solid #916000;
+  border-radius: 4px 0px 0px 4px;
+  background: white;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 16px;
+}
+
+.email-input::-webkit-input-placeholder {
+  color: #8D8D8D;
+}
+
+.email-input:-ms-input-placeholder {
+  color: #8D8D8D;
+}
+
+.email-input::-ms-input-placeholder {
+  color: #8D8D8D;
+}
+
+.email-input::placeholder {
+  color: #8D8D8D;
+}
+
+.subscribe-btn {
+  width: 131px;
+  border: 2px solid #916000;
+  border-radius: 0px 4px 4px 0px;
+  background: #916000;
+  cursor: pointer;
+  color: white;
+}
+
+.footer-full-width-wrap {
+  background: #916000;
+}
+
+.logo-copyright-wrap {
+  height: 80px;
+}
+
+.footer-logo {
+  width: 128px;
+  height: 38px;
+}
+
+.footer-copyright {
+  margin-left: 23px;
+  color: white;
+}
+
+.footer-menu a {
+  color: white;
+}
+
+.footer-menu a + a {
+  margin-left: 36px;
+}
+/*# sourceMappingURL=all.css.map */
