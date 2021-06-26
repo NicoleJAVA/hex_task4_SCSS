@@ -19,7 +19,7 @@ $light-font-weight: 300;
 $medium-font-weight: 500;
 
 $font-size-m: 20px;
-$xxl-font-size: 32px;
+$font-size-xxl: 32px;
 
 $wrap-width: 1110px;
 $logo-width: 128px;
@@ -549,7 +549,7 @@ h1 {
     .banner-slogan {
         
         h2 {
-            font-size: $xxl-font-size;
+            font-size: $font-size-xxl;
         }
 
         p {
