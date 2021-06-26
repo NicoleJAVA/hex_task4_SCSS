@@ -1,6 +1,4 @@
 .navBar {
-    display: flex;
-    align-items: center;
 
     a {
         position: relative;
@@ -23,15 +21,6 @@
         line-height: 14px;
         display: none;
         text-align: center;
-    }
-
-    li a {
-        display: flex;
-        align-items: center;
-    }
-
-    li {
-        display: flex;
     }
 
     li + li {
