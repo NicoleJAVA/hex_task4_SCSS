@@ -11,7 +11,7 @@ $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTrainin
        .grid-wrap {
         @for $i from 1 through 3 {
             li:nth-child(#{$i}) .keep-ratio  {
-                background: url(nth($urls, $i));
+                background-image: url(nth($urls, $i));
             }
         }
     }
@@ -26,7 +26,7 @@ $subscribe-bg-url: "https://raw.githubusercontent.com/hexschool/webLayoutTrainin
 
     @for $i from 1 through 3 {
         .discount-product:nth-child(#{$i}) .discount-photo {
-            background: url(nth($urls, $i));
+            background-image: url(nth($urls, $i));
         }
     }
 }
