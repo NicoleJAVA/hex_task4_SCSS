@@ -49,6 +49,10 @@
   font-weight: bold;
 }
 
+.mb-4 {
+  margin-bottom: 4px;
+}
+
 .mb-8 {
   margin-bottom: 8px;
 }
@@ -57,8 +61,20 @@
   margin-bottom: 16px;
 }
 
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-52 {
+  margin-bottom: 52px;
+}
+
 .mb-60 {
   margin-bottom: 60px;
+}
+
+.mr-8 {
+  margin-right: 8px;
 }
 
 .gray-text {
@@ -341,14 +357,6 @@ ul li:nth-child(4) a img {
   background-position: center;
 }
 
-.grid-wrap .rect-grid-title {
-  margin-bottom: 4px;
-}
-
-.grid-wrap .rect-grid-paragraph {
-  margin-bottom: 52px;
-}
-
 .grid-wrap .training-button {
   border-color: black;
   color: black;
@@ -440,14 +448,6 @@ ul li:nth-child(3) .square-photo {
   color: white;
 }
 
-.discount-wrap .discount-product-name {
-  margin-bottom: 4px;
-}
-
-.discount-wrap .discount-price {
-  margin-right: 8px;
-}
-
 .discount-wrap .original-price {
   color: #8D8D8D;
   text-decoration: line-through;
@@ -491,10 +491,6 @@ ul li:nth-child(3) .square-photo {
 
 .subscribe-wrap {
   padding: 312px 0 0 0;
-}
-
-.subscribe-title {
-  margin-bottom: 20px;
 }
 
 .email-wrap {

@@ -67,6 +67,10 @@ $wrap-padding: 15px;
     font-weight: bold;
 }
 
+.mb-4 {
+    margin-bottom: 4px;
+}
+
 .mb-8 {
     margin-bottom: 8px;
 }
@@ -75,8 +79,20 @@ $wrap-padding: 15px;
     margin-bottom: 16px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-52 {
+    margin-bottom: 52px;
+}
+
 .mb-60 {
     margin-bottom: 60px;
+}
+
+.mr-8 {
+    margin-right: 8px;
 }
 
 .gray-text {
@@ -295,14 +311,6 @@ h1 {
         background-position: center;
     }
 
-    .rect-grid-title {
-        margin-bottom: 4px;
-    }
-
-    .rect-grid-paragraph {
-        margin-bottom: 52px;
-    }
-
     .training-button {
         border-color: black;
         color: black;
@@ -354,14 +362,6 @@ h1 {
         color: white;
     }
 
-    .discount-product-name {
-        margin-bottom: 4px;
-    }
-
-    .discount-price {
-        margin-right: 8px;
-    }
-
     .original-price {
         color: $theme-gray;
         text-decoration: line-through;
@@ -402,10 +402,6 @@ h1 {
 
 .subscribe-wrap {
     padding: 312px 0 0 0;
-}
-
-.subscribe-title {
-    margin-bottom: 20px;
 }
 
 .email-wrap {
